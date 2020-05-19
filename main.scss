@@ -1,0 +1,202 @@
+@import 'keyframes';
+
+header {
+    display: flex;
+    height: 20vh;
+    width: 100vw;
+    
+    
+    h1 { display: flex;
+        align-content:left;
+        width: 50%;
+        height: 100%;
+    }
+    h2 { 
+        display: flex;
+        align-items: center;
+    width: 50%;
+    height: 100%;
+    }
+}
+
+body {
+    background-color: #FF0000;
+    animation: bgColor 5s infinite linear;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template:repeat (4, 25%) / 33.3% 33.3% 33.3%;
+    grid-gap: 1em;
+    
+    height:100%;
+    width: 100%;
+    .one {
+        font-size: 200%;
+        display: grid;
+        border: solid black 1px;
+        grid-area: 1/1;
+        width: 100%;
+        height: 100%;
+        background-color: blue;
+        animation: cube 5s infinite;
+        color: white;
+        text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        
+    }
+    .two {
+        font-size: 200%;
+        display: grid;
+        border: solid black 1px;
+        grid-area: 1 / 2;
+        background-image: url("./img/giphy.gif");
+        height: 100%;
+        width: 100%;
+        color: white;
+        text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    }
+    .three {
+        font-size: 200%;
+        display: grid;
+        border: solid black 1px;
+        grid-area: 1 / 3;
+        background-image: url("./img/State-maps_Victoria.jpg");
+        background-repeat: no-repeat;
+        color: white;
+        text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        width: 100%;
+        height: 100%;
+        &:hover {
+            background-image: url(./img/Nice.gif);
+        }
+
+    }
+    .four {
+        font-size: 200%;
+        display: grid;
+        border: solid black 1px;
+        grid-area: 2/ 1;
+        color: white;
+        text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        background-image: url("./img/bois.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        &:hover {
+            background-image: url("./img/cooltext-357179023722351.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+        }
+    }
+    .five {
+        font-size: 200%;
+        display: grid;
+        border: solid black 1px;
+        grid-area: 2/ 2;
+        color: white;
+        text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        background-image: url("./img/DAiwRWpWsAA2Z4S.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    
+        iframe {
+            display: grid;
+            grid-area: 2/3;
+            height: 100%;
+            width: 100%;
+           
+            
+        }
+    
+    .seven {
+        font-size: 200%;
+        display: grid;
+        border: solid black 1px;
+        grid-area: 3/ 1;
+        color: white;
+        text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        background-image: url("./img/i0imk0ay05k21.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    .eight {
+        font-size: 200%;
+        display: grid;
+        border: solid black 1px;
+        grid-area: 3/ 2;
+        color: white;
+        text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        background-image: url("./img/tenor.gif");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    .nine {
+        font-size: 200%;
+        display: grid;
+        border: solid black 1px;
+        grid-area: 3/ 3;
+        color: white;
+        text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        background-image: url("./img/georgesucks.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        animation: juice 4s infinite;
+    }
+    .ten {
+        font-size: 200%;
+        display: grid;
+        border: solid black 1px;
+        grid-area: 4/ 1;
+        color: white;
+        text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        background-image: url("./img/girl-come-over-me-i-refuse-girl-i-have-choccy-20183617.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        &:hover {
+            background-image: url("./img/nochoccy.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+        }
+    }
+    .eleven {
+        font-size: 200%;
+        display: grid;
+        border: solid black 1px;
+        grid-area: 4/ 2;
+        color: white;
+        text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        audio {
+            display: grid;
+            grid-area: 4/2;
+            align-content: center;
+        }
+    }
+    .twelve {
+        font-size: 200%;
+        display: grid;
+        border: solid black 1px;
+        grid-area: 4/ 3;
+        color: white;
+        text-shadow: 1px 0 0 #000, 0-1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+        background-image: url("./img/CHLA-What-You-Should-Know-Covid-19-1200x628-01_1024x1024.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        
+            
+        
+    }
+
+}
